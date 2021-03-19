@@ -1,0 +1,278 @@
+{
+    "card": {
+        "style": "",
+        "script": "",
+        "title": "",
+        "showCarousel": false,
+        "body": [
+            {
+                "type": "Container",
+                "style": {
+                    "padding": "5px"
+                },
+                "items": [
+                    {
+                        "type": "TextBlock",
+                        "id": "",
+                        "class": "",
+                        "text": "<style>blox.widget-body .content div div.blox-slides + div.blox-slides div.valueTitle{display:none} blox.widget-body .content > div {overflow: scroll !important; white-space: nowrap !important; margin-left:10px; margin-top: 10px}</style>"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "id": "",
+                        "class": "",
+                        "text": "{panel:gender}",
+                        "size": "default",
+                        "weight": "bold",
+                        "horizontalAlignment": "right"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "spacing": "small",
+                        "separator": true,
+                        "style": {
+                            "padding-top": "5px",
+                            "padding-bottom": "5px"
+                        },
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "class": "valueTitle",
+                                "style": {
+                                    "flex": "none",
+                                    "min-width": "140px"
+                                },
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "id": "",
+                                        "class": "valueTitle",
+                                        "text": "Cost"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "style": {
+                                    "flex": "none",
+                                    "min-width": "100px"
+                                },
+                                "separator": true,
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "id": "",
+                                        "class": "",
+                                        "horizontalAlignment": "right",
+                                        "text": "{panel:c}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "separator": true,
+                        "style": {
+                            "padding-top": "5px",
+                            "padding-bottom": "5px"
+                        },
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "class": "valueTitle",
+                                "style": {
+                                    "flex": "none",
+                                    "min-width": "140px"
+                                },
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "id": "",
+                                        "class": "valueTitle",
+                                        "text": "Quantity"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "style": {
+                                    "flex": "none",
+                                    "min-width": "100px"
+                                },
+                                "separator": true,
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "id": "",
+                                        "class": "",
+                                        "horizontalAlignment": "right",
+                                        "text": "{panel:q}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "separator": true,
+                        "style": {
+                            "padding-top": "5px",
+                            "padding-bottom": "5px"
+                        },
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "class": "valueTitle",
+                                "style": {
+                                    "flex": "none",
+                                    "min-width": "140px"
+                                },
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "id": "",
+                                        "class": "valueTitle",
+                                        "text": "Ages"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "style": {
+                                    "flex": "none",
+                                    "min-width": "100px"
+                                },
+                                "separator": true,
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "id": "",
+                                        "class": "",
+                                        "horizontalAlignment": "right",
+                                        "text": "{panel:ages}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "config": {
+        "fontFamily": "Open Sans",
+        "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+        },
+        "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+        },
+        "containerStyles": {
+            "default": {
+                "backgroundColor": "white",
+                "foregroundColors": {
+                    "default": {
+                        "normal": "#000000"
+                    },
+                    "white": {
+                        "normal": "#ffffff"
+                    },
+                    "grey": {
+                        "normal": "#5C6372"
+                    },
+                    "orange": {
+                        "normal": "#f2B900"
+                    },
+                    "yellow": {
+                        "normal": "#ffcb05"
+                    },
+                    "black": {
+                        "normal": "#000000"
+                    },
+                    "lightGreen": {
+                        "normal": "#3ADCCA"
+                    },
+                    "green": {
+                        "normal": "#54a254"
+                    },
+                    "red": {
+                        "normal": "#dd1111"
+                    },
+                    "accent": {
+                        "normal": "#2E89FC"
+                    },
+                    "good": {
+                        "normal": "#54a254"
+                    },
+                    "warning": {
+                        "normal": "#e69500"
+                    },
+                    "attention": {
+                        "normal": "#cc3300"
+                    }
+                }
+            }
+        },
+        "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+        },
+        "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+        },
+        "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+                "actionMode": "inline",
+                "inlineTopMargin": 16,
+                "style": "default"
+            }
+        },
+        "spacing": {
+            "default": 5,
+            "small": 10,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+        },
+        "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+        },
+        "factSet": {
+            "title": {
+                "size": "default",
+                "color": "default",
+                "weight": "bold",
+                "warp": true
+            },
+            "value": {
+                "size": "default",
+                "color": "default",
+                "weight": "default",
+                "warp": true
+            },
+            "spacing": 20
+        },
+        "supportsInteractivity": true,
+        "imageBaseUrl": ""
+    }
+}

@@ -1,0 +1,1 @@
+https://support.sisense.com/hc/en-us/community/posts/360039619893-Transposed-Pivot-Table-With-BloX
