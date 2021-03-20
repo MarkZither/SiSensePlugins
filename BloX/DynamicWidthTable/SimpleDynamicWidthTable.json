@@ -1,0 +1,100 @@
+{
+    "card": {
+        "style": ".blox-slides:first-child .blox-pivot-title{display:block; !important;} .blox-slides .blox-pivot-title{margin-bottom:10px; font-weight:bold; color:black; font-size:1em}",
+        "titleStyle": [
+            {
+                "display": "none"
+            }
+        ],
+        "showCarousel": false,
+        "body": [
+            {
+                "type": "ColumnSet",
+                "spacing": "none",
+                "separator": false,
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": "50%",
+                        "spacing": "none",
+                        "separator": true,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "class": "blox-pivot-title",
+                                "separator": true,
+                                "weight": "bold",
+                                "hidden": "true",
+                                "horizontalAlignment": "center",
+                                "text": "Brand"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "weight": "light",
+                                "horizontalAlignment": "left",
+                                "separator": true,
+                                "spacing": "light",
+                                "text": "{panel:Brand}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "separator": true,
+                        "width": "50%",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "class": "blox-pivot-title",
+                                "hidden": "true",
+                                "horizontalAlignment": "center",
+                                "separator": true,
+                                "text": "Category"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "left",
+                                "separator": true,
+                                "weight": "light",
+                                "spacing": "none",
+                                "text": "{panel:Category}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "config": {
+        "actions": {
+            "maxActions": 5,
+            "spacing": "large",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+                "actionMode": "inline",
+                "inlineTopMargin": -1,
+                "style": "default"
+            }
+        },
+        "factSet": {
+            "title": {
+                "size": "default",
+                "color": "default",
+                "weight": "bold",
+                "warp": true
+            },
+            "value": {
+                "size": "default",
+                "color": "default",
+                "weight": "default",
+                "warp": true
+            },
+            "spacing": -1
+        },
+        "supportsInteractivity": true,
+        "height": 241,
+        "imageBaseUrl": ""
+    }
+}

@@ -1,0 +1,235 @@
+{
+        "style": ".blox-slides:first-child .blox-pivot-title{display:block; !important;} .blox-slides .blox-pivot-title{margin-bottom:10px; font-weight:bold; color:black; font-size:1em} .blox-slides:hover {transform: scale(1.0); z-index: 50;}",
+        "titleStyle": [
+            {
+                "display": "none"
+            }
+        ],
+        "showCarousel": false,
+        "body": [
+            {
+                "type": "ColumnSet",
+                "spacing": "none",
+                "separator": false,
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": "25%",
+                        "spacing": "none",
+                        "separator": true,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "class": "blox-pivot-title",
+                                "separator": true,
+                                "weight": "bold",
+                                "hidden": "true",
+                                "horizontalAlignment": "center",
+                                "text": "Brand"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "weight": "light",
+                                "horizontalAlignment": "left",
+                                "separator": true,
+                                "spacing": "light",
+                                "text": "{panel:Brand}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "separator": true,
+                        "width": "25%",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "class": "blox-pivot-title",
+                                "hidden": "true",
+                                "horizontalAlignment": "center",
+                                "separator": true,
+                                "text": "Category"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "left",
+                                "separator": true,
+                                "weight": "light",
+                                "spacing": "none",
+                                "text": "{panel:Category}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "separator": true,
+                        "width": "25%",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "class": "blox-pivot-title",
+                                "hidden": "true",
+                                "weight": "bold",
+                                "horizontalAlignment": "center",
+                                "separator": true,
+                                "color": "grey",
+                                "text": "Total Revenue"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "size": "light",
+                                "weight": "light",
+                                "horizontalAlignment": "left",
+                                "separator": true,
+                                "spacing": "none",
+                                "color": "default",
+                                "text": "{panel:Total Revenue}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "separator": true,
+                        "width": "25%",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "class": "blox-pivot-title",
+                                "hidden": "true",
+                                "weight": "bold",
+                                "horizontalAlignment": "center",
+                                "separator": true,
+                                "color": "grey",
+                                "text": "Total Cost"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "size": "light",
+                                "weight": "light",
+                                "horizontalAlignment": "left",
+                                "separator": true,
+                                "spacing": "none",
+                                "color": "default",
+                                "text": "{panel: Total Cost}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+    "config": {
+        "fontFamily": "Open Sans",
+        "fontSizes": {
+            "default": 15,
+            "small": 14,
+            "medium": 20,
+            "large": 26,
+            "extraLarge": 32
+        },
+        "fontWeights": {
+            "default": 400,
+            "light": 200,
+            "bold": 800
+        },
+        "containerStyles": {
+            "default": {
+                "backgroundColor": "#ffffff",
+                "foregroundColors": {
+                    "default": {
+                        "normal": "#000000"
+                    },
+                    "white": {
+                        "normal": "#ffffff"
+                    },
+                    "grey": {
+                        "normal": "#dcdcdc"
+                    },
+                    "orange": {
+                        "normal": "#f2B900"
+                    },
+                    "yellow": {
+                        "normal": "#ffcb05"
+                    },
+                    "black": {
+                        "normal": "#000000"
+                    },
+                    "lightGreen": {
+                        "normal": "#93c0c0"
+                    },
+                    "green": {
+                        "normal": "#54a254"
+                    },
+                    "red": {
+                        "normal": "#dd1111"
+                    },
+                    "accent": {
+                        "normal": "#2E89FC"
+                    },
+                    "good": {
+                        "normal": "#54a254"
+                    },
+                    "warning": {
+                        "normal": "#e69500"
+                    },
+                    "attention": {
+                        "normal": "#cc3300"
+                    }
+                }
+            }
+        },
+        "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+        },
+        "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+        },
+        "actions": {
+            "maxActions": 5,
+            "spacing": "large",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+                "actionMode": "inline",
+                "inlineTopMargin": -1,
+                "style": "default"
+            }
+        },
+        "spacing": {
+            "default": -1,
+            "small": -1,
+            "medium": -1,
+            "large": -1,
+            "extraLarge": -1,
+            "padding": -1
+        },
+        "separator": {
+            "lineThickness": 1,
+            "lineColor": "#9b9999",
+            "padding": 25,
+            "spacing": 40
+        },
+        "factSet": {
+            "title": {
+                "size": "default",
+                "color": "default",
+                "weight": "bold",
+                "warp": true
+            },
+            "value": {
+                "size": "default",
+                "color": "default",
+                "weight": "default",
+                "warp": true
+            },
+            "spacing": -1
+        },
+        "supportsInteractivity": true,
+        "height": 241,
+        "imageBaseUrl": ""
+    }
+}
